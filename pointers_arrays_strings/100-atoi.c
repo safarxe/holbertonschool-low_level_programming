@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * _atoi - converts a string to an integer
@@ -30,6 +31,15 @@ int _atoi(char *s)
 		return (0);
 
 	if (sign == -1)
-		return (-((int)result));
-	return ((int)result);
+	{
+		if (result > (unsigned int)INT_MAX + 1)
+			return (INT_MIN);
+		return ((int)(-result));
+	}
+	else
+	{
+		if (result > (unsigned int)INT_MAX)
+			return (INT_MAX);
+		return ((int)result);
+	}
 }
