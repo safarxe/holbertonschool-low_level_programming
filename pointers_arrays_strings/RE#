@@ -1,0 +1,27 @@
+# Pointers, Arrays, and Strings
+
+This project is part of the Holberton School low-level programming curriculum. It focuses on:
+
+- Working with pointers
+- Manipulating arrays
+- Handling strings in C
+- Understanding memory and data referencing
+
+## Files
+
+Each file contains a specific function related to pointers, arrays, or strings. Function prototypes are in the \`main.h\` header file.
+
+## Requirements
+
+- OS: Ubuntu 20.04 LTS
+- Compiler: \`gcc -Wall -Werror -Wextra -pedantic -std=gnu89\`
+- No standard library functions allowed
+- Use only \`_putchar\` if printing is needed
+
+## Betty Style
+
+All files follow the [Betty coding style](https://github.com/holbertonschool/Betty).
+
+---
+
+By: Student Name (replace with your GitHub username or name) main.h faylı
